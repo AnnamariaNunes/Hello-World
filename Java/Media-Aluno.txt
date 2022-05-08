@@ -1,0 +1,33 @@
+Como tirar a média de um aluno no NetBeans : 
+
+'1-  Criar uma pasta "Média Aluno"
+2- todas os dados serão inseridos dentro de :
+ 
+"public static void main (String [] args){
+
+3 - Criar um objeto da classe Scanner 
+
+Scanner media = new Scanner (System.in)
+ 
+[Quando der o erro, você tem de clicar nela e adicionar a Classe Scanner]
+
+4 - Declarar as notas : 
+float n1 = media.nextFloat();
+float n2 = media.nextFloat();
+
+5- Declarar a média : 
+float m = (n1+n2)/2;
+
+6 - Mostrar a média : 
+
+system.out.print("Sua média foi:" + m)
+
+Se caso você queira parabezinar este aluno por ter tirado uma nota boa : 
+
+7 - IF : 
+
+IF (m >=7){
+system.out.print("Parabéns você está acima da média")
+}else{
+system.out.print(" Atenção! Precisa estudar mais!")
+}
