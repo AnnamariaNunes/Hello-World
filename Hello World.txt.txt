@@ -1,0 +1,12 @@
+ - Como realizar um Hello World no JavaApplication54- NetBeans:
+	
+ 1- Criar um novo projeto.
+ 2 - Nomear o projeto.
+ 3 - Embaixo do "public static void main {"  adc : 
+           system.out.print("Hello World");
+  }
+
+Obs: tudo dentro das chaves!!!!
+
+
+Simples!
